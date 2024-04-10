@@ -4,3 +4,5 @@ src
 pkg
 *.tar.*
 *.pem
+*.log
+nohup.out
