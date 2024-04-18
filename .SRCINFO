@@ -7,6 +7,7 @@ pkgbase = chromium-extension-return-youtube-dislike
 	license = GPL3
 	makedepends = openssl
 	makedepends = jq
+	makedepends = unzip
 	depends = chromium
 	noextract = return-youtube-dislike-3.0.0.16.zip
 	source = return-youtube-dislike-3.0.0.16.zip::https://github.com/Anarios/return-youtube-dislike/releases/download/v3.0.0.16/chrome.zip

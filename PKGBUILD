@@ -10,7 +10,7 @@ arch=('any')
 url="https://github.com/Anarios/$_extension"
 license=('GPL3')
 depends=('chromium')
-makedepends=('openssl' 'jq')
+makedepends=('openssl' 'jq' 'unzip')
 source=("$_extension-$pkgver.zip::$url/releases/download/v$pkgver/chrome.zip"
         "$_extension.pem")
 noextract=("$_extension-$pkgver.zip")
